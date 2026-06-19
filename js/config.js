@@ -20,20 +20,20 @@ const RoyalSchoolConfig = (function () {
       phoneDisplay: '+91 80123 45678',
       email: 'info@royalinternationalschool.edu.in',
       whatsapp: '918012345678',
-      address: 'NH-167, Near Ring Road, Raichur, Karnataka 584101',
-      addressShort: 'Raichur, Karnataka',
+      address: 'Main Road, Devadurga, Raichur District, Karnataka 584111',
+      addressShort: 'Devadurga, Karnataka',
       hours: 'Mon–Fri 8:00 AM – 4:00 PM',
-      mapEmbed: 'https://maps.google.com/maps?q=Raichur+Karnataka+584101&z=14&output=embed',
-      mapLink: 'https://maps.google.com/?q=Raichur+Karnataka+584101',
+      mapEmbed: 'https://maps.google.com/maps?q=Devadurga+Karnataka+584111&z=14&output=embed',
+      mapLink: 'https://maps.google.com/?q=Devadurga+Karnataka+584111',
     },
 
     hero: {
       headline: 'Shaping Tomorrow\'s Leaders',
-      subheadline: 'A world-class CBSE school in Raichur with modern labs, sports, arts & values-based education.',
+      subheadline: 'A world-class CBSE school in Devadurga with modern labs, sports, arts & values-based education.',
       ctaPrimary: 'Apply for Admission',
       ctaSecondary: 'Download Prospectus',
       image: 'images/campus/hero-campus.jpg',
-      imageAlt: 'Royal Kids International campus in Raichur',
+      imageAlt: 'Royal Kids International campus in Devadurga',
     },
 
     stats: [
@@ -46,7 +46,7 @@ const RoyalSchoolConfig = (function () {
     about: {
       title: 'About Royal Kids International',
       paragraphs: [
-        'Royal Kids International has been a trusted name in Raichur since 2008, offering holistic education from Nursery through Grade XII under the CBSE curriculum.',
+        'Royal Kids International has been a trusted name in Devadurga since 2008, offering holistic education from Nursery through Grade XII under the CBSE curriculum.',
         'We blend academic rigour with co-curricular excellence — science labs, digital classrooms, sports grounds, music & art studios, and leadership programmes that prepare students for universities in India and abroad.',
         'Our campus is a safe, inclusive community where every child is known, nurtured, and challenged to reach their full potential.',
       ],
@@ -194,7 +194,7 @@ const RoyalSchoolConfig = (function () {
         text: 'GPS-enabled buses, CCTV campus & trained staff.',
         image: 'images/campus/hero-campus.jpg',
         gallery: ['images/campus/hero-campus.jpg', 'images/campus/sports.jpg', 'images/programs/middle.jpg'],
-        about: 'Student safety is our highest priority. A fleet of GPS-enabled school buses covers major routes across Raichur with trained attendants. The campus is monitored 24/7 with CCTV, controlled entry points, and trained security personnel. Fire safety drills and first-aid teams are always on standby.',
+        about: 'Student safety is our highest priority. A fleet of GPS-enabled school buses covers major routes across Devadurga and Raichur district with trained attendants. The campus is monitored 24/7 with CCTV, controlled entry points, and trained security personnel. Fire safety drills and first-aid teams are always on standby.',
         features: ['GPS-tracked buses with parent SMS alerts', 'Trained bus attendants on every route', 'CCTV across campus & perimeter fencing', 'Controlled visitor entry & ID verification', 'Regular fire drills & on-campus first-aid team'],
       },
     ],
@@ -261,13 +261,13 @@ const RoyalSchoolConfig = (function () {
     faq: [
       { q: 'What curriculum does Royal Kids International follow?', a: 'We follow the CBSE curriculum from Nursery through Grade XII, with continuous assessment, structured academics, and rich co-curricular programmes.' },
       { q: 'When are admissions open for 2026–27?', a: 'Admissions for session 2026–27 are now open across all grades. Submit the enquiry form or visit campus to begin the process.' },
-      { q: 'Does the school provide transport?', a: 'Yes. GPS-enabled buses cover major routes in Raichur with trained attendants and strict safety protocols.' },
+      { q: 'Does the school provide transport?', a: 'Yes. GPS-enabled buses cover major routes in Devadurga and surrounding areas with trained attendants and strict safety protocols.' },
       { q: 'What extracurricular activities are offered?', a: 'Sports, music, dance, robotics, debates, scouts, community service, Olympiad prep, and leadership programmes across all grade levels.' },
       { q: 'Can I schedule a campus tour?', a: 'Absolutely. Call our admissions office or send a WhatsApp enquiry to book a personalised campus walkthrough.' },
     ],
 
     footer: {
-      blurb: 'Premier CBSE education in Raichur since 2008. Nurturing academic excellence, character & leadership.',
+      blurb: 'Premier CBSE education in Devadurga since 2008. Nurturing academic excellence, character & leadership.',
       explore: [
         { label: 'About Us', href: '#about' },
         { label: 'Academics', href: '#programs' },
@@ -300,7 +300,7 @@ const RoyalSchoolConfig = (function () {
     const c = config.contact;
     const h = config.hero;
 
-    document.title = `${s.name} | ${s.board} School in Raichur`;
+    document.title = `${s.name} | ${s.board} School in Devadurga`;
 
     document.querySelectorAll('[data-cfg="school-name"]').forEach((el) => { el.textContent = s.name; });
     document.querySelectorAll('[data-cfg="short-name"]').forEach((el) => { el.textContent = s.shortName; });
