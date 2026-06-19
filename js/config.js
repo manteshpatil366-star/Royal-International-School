@@ -10,7 +10,7 @@ const RoyalSchoolConfig = (function () {
       shortName: 'RKI',
       tagline: 'Excellence in Education · Character · Leadership',
       motto: 'Learn · Lead · Serve',
-      established: '2008',
+      established: '2026',
       board: 'CBSE',
       grades: 'Nursery to Grade XII',
     },
@@ -36,18 +36,13 @@ const RoyalSchoolConfig = (function () {
       imageAlt: 'Royal Kids International campus in Devadurga',
     },
 
-    stats: [
-      { value: '15+', label: 'Years of Excellence' },
-      { value: '2,500+', label: 'Students' },
-      { value: '120+', label: 'Qualified Faculty' },
-      { value: '98%', label: 'Board Pass Rate' },
-    ],
+    stats: [],
 
     about: {
       title: 'About Royal Kids International',
       paragraphs: [
-        'Royal Kids International has been a trusted name in Devadurga since 2008, offering holistic education from Nursery through Grade XII under the CBSE curriculum.',
-        'We blend academic rigour with co-curricular excellence — science labs, digital classrooms, sports grounds, music & art studios, and leadership programmes that prepare students for universities in India and abroad.',
+        'Royal Kids International is a brand-new CBSE school in Devadurga, opening for session 2026–27 with holistic education from Nursery through Grade XII.',
+        'We blend academic rigour with co-curricular excellence — science labs, digital classrooms, sports grounds, music & art studios, and leadership programmes that prepare students for the future.',
         'Our campus is a safe, inclusive community where every child is known, nurtured, and challenged to reach their full potential.',
       ],
     },
@@ -233,12 +228,12 @@ const RoyalSchoolConfig = (function () {
     trust: [
       'CBSE Affiliated',
       'Nursery to Grade XII',
-      '15+ Years of Excellence',
-      '2,500+ Happy Students',
+      'New School · Session 2026–27',
+      'Admissions Open',
       'Safe & Secure Campus',
       'GPS-Enabled Transport',
-      '98% Board Pass Rate',
       'Holistic Education',
+      'Devadurga, Karnataka',
     ],
 
     principal: {
@@ -267,7 +262,7 @@ const RoyalSchoolConfig = (function () {
     ],
 
     footer: {
-      blurb: 'Premier CBSE education in Devadurga since 2008. Nurturing academic excellence, character & leadership.',
+      blurb: 'A new premier CBSE school in Devadurga. Nurturing academic excellence, character & leadership from day one.',
       explore: [
         { label: 'About Us', href: '#about' },
         { label: 'Academics', href: '#programs' },
@@ -319,11 +314,6 @@ const RoyalSchoolConfig = (function () {
     const heroS = document.querySelector('[data-cfg="hero-sub"]');
     if (heroS) heroS.textContent = h.subheadline;
 
-    const heroImg = document.getElementById('heroPhoto');
-    if (heroImg && h.image) {
-      heroImg.src = h.image;
-      heroImg.alt = h.imageAlt || `${s.name} campus`;
-    }
     const heroBg = document.getElementById('heroBgImg');
     if (heroBg && h.image) {
       heroBg.src = h.image;
@@ -331,7 +321,7 @@ const RoyalSchoolConfig = (function () {
     }
 
     const statsEl = document.getElementById('statsGrid');
-    if (statsEl) {
+    if (statsEl && config.stats.length) {
       statsEl.innerHTML = config.stats.map((st) => `
         <div class="stat-card">
           <strong>${st.value}</strong>

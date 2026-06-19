@@ -52,39 +52,15 @@ const RoyalSchoolGSAP = (function () {
       .to('.loader-mark', { scale: 1.08, duration: 0.35, yoyo: true, repeat: 1, ease: 'power2.out' }, '-=0.4');
   }
 
-  function animateCounters() {
-    document.querySelectorAll('[data-stat]').forEach((el) => {
-      const target = parseInt(el.getAttribute('data-stat'), 10);
-      if (!Number.isFinite(target)) return;
-      const obj = { val: 0 };
-      gsap.to(obj, {
-        val: target,
-        duration: 2,
-        ease: 'power2.out',
-        delay: 0.4,
-        onUpdate() {
-          const n = Math.round(obj.val);
-          el.textContent = target === 98 ? `${n}%` : `${n}+`;
-        },
-      });
-    });
-  }
-
   function initHero() {
     const words = gsap.utils.toArray('.hero-word');
     const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
 
     tl.from(words, { y: '110%', opacity: 0, stagger: 0.06, duration: 0.85, delay: 0.15 })
       .from('.gsap-hero:not(h1):not(.hero-word)', { opacity: 0, y: 28, stagger: 0.08, duration: 0.65 }, '-=0.45')
-      .from('.gsap-hero-photo', { opacity: 0, scale: 0.9, x: 50, duration: 1, ease: 'power3.out' }, '-=0.55')
-      .from('.gsap-hero-card', { opacity: 0, y: 36, duration: 0.7 }, '-=0.65')
       .from('.hero-scroll-hint', { opacity: 0, y: -10, duration: 0.5 }, '-=0.3');
 
-    const photo = document.querySelector('.hero-photo');
     const bg = document.querySelector('.hero-bg-img');
-    if (photo) {
-      gsap.to(photo, { scale: 1.1, duration: 16, ease: 'none', repeat: -1, yoyo: true });
-    }
     if (bg) {
       gsap.to(bg, { scale: 1.12, duration: 20, ease: 'none', repeat: -1, yoyo: true });
     }
@@ -99,8 +75,6 @@ const RoyalSchoolGSAP = (function () {
         yoyo: true,
       });
     });
-
-    animateCounters();
   }
 
   function initMarquee() {
