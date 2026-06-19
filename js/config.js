@@ -16,10 +16,10 @@ const RoyalSchoolConfig = (function () {
     },
 
     contact: {
-      phone: '918012345678',
-      phoneDisplay: '+91 80123 45678',
+      phone: '918105249726',
+      phoneDisplay: '+91 81052 49726',
       email: 'info@royalinternationalschool.edu.in',
-      whatsapp: '918012345678',
+      whatsapp: '918105249726',
       address: 'Main Road, Devadurga, Raichur District, Karnataka 584111',
       addressShort: 'Devadurga, Karnataka',
       hours: 'Mon–Fri 8:00 AM – 4:00 PM',
