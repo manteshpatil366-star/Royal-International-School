@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Senior Secondary programme">
+  <defs>
+    <linearGradient id="senior-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#senior-bg)"/>
+  <polygon points="400,90 530,200 530,330 400,420 270,330 270,200" fill="#ffffff" opacity="0.16"/>
+  <rect x="335" y="210" width="130" height="110" rx="8" fill="#ffffff" opacity="0.26"/>
+  <text x="400" y="400" text-anchor="middle" fill="#ffffff" font-family="Georgia, serif" font-size="32" font-weight="bold">Senior Secondary</text>
+  <text x="400" y="438" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18">Lead Forward</text>
+  <text x="400" y="468" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" opacity="0.9">Royal Kids International</text>
+</svg>

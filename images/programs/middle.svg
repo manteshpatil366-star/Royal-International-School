@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Middle School programme">
+  <defs>
+    <linearGradient id="middle-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#middle-bg)"/>
+  <circle cx="400" cy="210" r="110" fill="none" stroke="#ffffff" stroke-width="5" opacity="0.35"/>
+  <rect x="270" y="290" width="260" height="90" rx="10" fill="#ffffff" opacity="0.22"/>
+  <text x="400" y="400" text-anchor="middle" fill="#ffffff" font-family="Georgia, serif" font-size="32" font-weight="bold">Middle School</text>
+  <text x="400" y="438" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18">Explore and Grow</text>
+  <text x="400" y="468" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" opacity="0.9">Royal Kids International</text>
+</svg>

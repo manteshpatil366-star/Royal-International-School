@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Early Years programme">
+  <defs>
+    <linearGradient id="early-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#early-bg)"/>
+  <circle cx="200" cy="260" r="70" fill="#ffffff" opacity="0.28"/>
+  <circle cx="360" cy="230" r="50" fill="#ffffff" opacity="0.22"/>
+  <rect x="500" y="170" width="200" height="150" rx="18" fill="#ffffff" opacity="0.2"/>
+  <text x="400" y="400" text-anchor="middle" fill="#ffffff" font-family="Georgia, serif" font-size="32" font-weight="bold">Early Years</text>
+  <text x="400" y="438" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18">Play and Learn</text>
+  <text x="400" y="468" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" opacity="0.9">Royal Kids International</text>
+</svg>
